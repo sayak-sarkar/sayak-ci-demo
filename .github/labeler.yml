@@ -1,2 +1,7 @@
 'Package: GitHub':
-  - .github/**/*
+    - .github/*
+    - .github/**/*
+documentation:
+    - *.md
+    - ./**/*.md
+    - ./**/**/*.md
