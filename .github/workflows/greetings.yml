@@ -10,24 +10,32 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message:  |
-            Hello @${{ github.actor }}! Thank you for contributing to the project and helping in making it better. 
+            Hey @${{ github.actor }}! 👋
+            
+            Thank you for contributing to the project and helping in making it better! 🙏
+            
             In order to make sure that your filed issue is acted upon as quickly as possible, we advise you to:
             - Make sure that your issue is as detailed as possible. 
             - In case you used one of the available templates:
                 - Make sure that you have used the correct issue template for your issue
                 - Filled out the issue template as descriptively as poosible.
+            
             All these details will help the project maintainers to resolve your issue in the best possible time frame.
         pr-message:  |
-            Hello @${{ github.actor }}, thank you for submitting a PR! To allow your work to be integrated as seamlessly as possible, we advise you to:
+            Hey @${{ github.actor }}! 👋
+            
+            Thank you for submitting a PR! We highly appreciate your efforts towards improving this project! 🙏
+            
+            To allow your work to be integrated as seamlessly as possible, we advise you to:
             - Make sure that your branch name adheres to the Contribution Guidelines for the repository. 
             - Verify your PR is **up-to-date with origin/master.** If your PR is behind origin/master update by running the following, replacing 'feature' with the name of your local branch:
-            ```bash
-            git remote add upstream https://github.com/sayak-sarkar/sayak-ci-demo.git
-            git fetch upstream
-            git checkout feature  # <----- replace 'feature' with local branch name
-            git rebase upstream/master
-            git push -u origin -f
-            ```
+                ```sh
+                git remote add upstream https://github.com/sayak-sarkar/sayak-ci-demo.git
+                git fetch upstream
+                git checkout feature  # <----- replace 'feature' with local branch name
+                git rebase upstream/master
+                git push -u origin -f
+                ```
             - Verify all Continuous Integration (CI) **checks are passing**.
             - Reduce changes to the absolute **minimum** required for your bug fix or feature addition. _"It is not daily increase but daily decrease, hack away the unessential. The closer to the source, the less wastage there is."_  -Bruce Lee
 
