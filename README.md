@@ -14,7 +14,7 @@
   </a>
 </p>
 
-A package that tells you the week number
+A package that tells you the week number!
 
 ### 🏠 [Homepage](https://github.com/bdougie/theWeekNum#readme)
 
