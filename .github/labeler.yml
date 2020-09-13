@@ -2,4 +2,4 @@
     - any: ['.github/*', '.github/**/*']
 
 documentation:
-    - any: ['./*.md', './**/*.md', './**/**/*.md']
+    - any: ['./*.md*', './**/*.md*', './**/**/*.md*']
