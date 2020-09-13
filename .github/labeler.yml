@@ -1,3 +1,8 @@
-'Package: GitHub': ['.github/*', '.github/**/*']
+'Package: GitHub':
+  - '.github/*'
+  - '.github/**/*'
 
-documentation: ['./*.md*', './**/*.md*', './**/**/*.md*']
+documentation: 
+  - './*.md*',
+  - './**/*.md*',
+  - './**/**/*.md*'
