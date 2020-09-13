@@ -2,6 +2,6 @@
     - .github/*
     - .github/**/*
 documentation:
-    - *.md
+    - ./*.md
     - ./**/*.md
     - ./**/**/*.md
