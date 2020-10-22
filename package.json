@@ -20,7 +20,7 @@
     "jest": "26.6.0"
   },
   "dependencies": {
-    "standard": "^14.3.1"
+    "standard": "^15.0.0"
   },
   "standard": {
     "env": [ "jest" ]
